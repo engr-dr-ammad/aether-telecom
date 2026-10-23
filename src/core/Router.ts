@@ -1,4 +1,4 @@
-import { RoutingEntry, TopologySnapshot, RouteQuality } from '../types/index.js';
+import { RoutingEntry, RouteQuality } from '../types/index.js';
 import { Topology } from './Topology.js';
 
 export class Router {

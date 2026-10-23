@@ -19,7 +19,6 @@ async function main() {
   console.log(`Location: ${JSON.stringify(node.getInfo().location)}`);
 
   console.log('\n📊 Initial State:');
-  const info = node.getInfo();
   console.log(
     `  Nodes in topology: ${node.getTopology().nodes.size}`,
   );
